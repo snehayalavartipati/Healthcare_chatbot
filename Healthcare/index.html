@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+
+</head>
+
+<body>
+
+    
+    <button class="health-btn" onclick="toggleChatbot()">AI Health Assistant</button>
+
+     <!-- Chatbot container -->
+     <div class="chat-container" id="chatContainer" style="display: none;">
+        <div class="chat-header">
+            <h2>Healthcare Chatbot</h2>
+            <!-- Close button for chatbot -->
+            <button onclick="toggleChatbot()">X</button>
+        </div>
+       
+
+</body>
+   <!--<div class="chat-container">
+        <div class="chat-header">
+            <h2>Healthcare Chatbot </h2>
+          
+        </div>-->
+<body>
+  
+        <div class="chat-box" id="chatBox">
+            <div class="chat-message">
+                <div class="bot-message">
+                    <img src="robot-icon.png" alt="Robot" class="chat-icon">
+                    Hi 👋, I'm your healthcare assistant. How can I help you today?
+                </div>
+            </div>
+            </div>
+            
+       
+        <div class="chat-input-container">
+            <img src="person-icon.png" alt="User" class="chat-icon">
+            
+            <input type="text" id="userInput" placeholder="Type your message here..." />
+            <button id="sendButton">Send</button>
+        </div>
+        <div id="appointmentForm" style="display: none;">
+            <h2>Schedule an Appointment</h2>
+            <label for="patientName">Patient Name:</label>
+            <input type="text" id="patientName" required>
+            
+            <label for="doctorName">Doctor's Name:</label>
+            <input type="text" id="doctorName" required>
+            
+            <label for="appointmentDate">Date:</label>
+            <input type="date" id="appointmentDate" required>
+            
+            <label for="appointmentTime">Time:</label>
+            <input type="time" id="appointmentTime" required>
+            
+            <button id="scheduleButton">Schedule Appointment</button>
+        </div>
+    </div>
+    
+    
+    
+    <script src="https://unpkg.com/compromise"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
