@@ -1,0 +1,1 @@
+This project proposes an AI-powered healthcare chatbot that uses Natural Language Processing (NLP) and Machine Learning (ML) algorithms to assist users in diagnosing common illnesses and providing medical advice based on symptoms. The chatbot will guide users by analyzing their symptoms and predicting potential illnesses. 
